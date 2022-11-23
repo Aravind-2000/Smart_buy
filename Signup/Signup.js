@@ -32,5 +32,5 @@ const signup = async () => {
   });
   const myJson = await response.json();
   console.log(myJson);
-  //   window.location.href = "../Login/Login.html";
+  window.location.href = "../Login/Login.html";
 };
